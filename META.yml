@@ -1,0 +1,13 @@
+# http://module-build.sourceforge.net/META-spec.html
+#XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
+name:         Apache2-Filter-CSS-LESS
+version:      0.20
+version_from: lib/Apache2/Filter/CSS/LESS.pm
+installdirs:  site
+requires:
+    Apache::Test:                  0
+    CSS::LESSp:                    0
+    mod_perl2:                     1.9922
+
+distribution_type: module
+generated_by: ExtUtils::MakeMaker version 6.30
