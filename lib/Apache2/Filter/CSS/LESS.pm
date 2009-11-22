@@ -12,7 +12,7 @@ use Apache2::RequestUtil;
 
 use CSS::LESSp;
 
-our $VERSION = '0.20';
+our $VERSION = '0.30';
 
 sub handler :method {
     my ($class, $f) = @_;
@@ -87,7 +87,7 @@ The following C<PerlSetVar>'s are recognized:
 =item B<LessContentType>
 
 Sets the output content type of the filtered CSS.  The default content type
-is C<text/plain>.
+is C<text/css>.
 
 =back
 
